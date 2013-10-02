@@ -11,3 +11,35 @@
  *= require_self
  *= require_tree .
  */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
+	background: #bbb;
+}
+
+#container {
+	width: 1000px;
+	border: 1px solid;
+
+	#navigation {
+		width: 1000px;
+		height: 100px;
+		background: #fff;
+		margin-left: auto;
+		margin-top: 140px;
+
+		#logo {
+
+		}
+
+		#navlinks {
+
+			a {
+				
+			}
+		}
+	}
+}
