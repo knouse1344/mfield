@@ -14,8 +14,7 @@
 }	
 
 #aboutpage {
-	padding-top: 40px;
-	padding-left: 200px;
+	padding: 40px 0px 40px 200px;
 
 	#ab_info {
 		width: 700px;
@@ -48,5 +47,14 @@
 				float: left;
 			}
 		}
+	}
+}
+
+#resourcepage {
+	padding: 60px 0 40px 200px;
+
+	#res_info {
+		font-size: 1.1em;
+		width: 600px;
 	}
 }
