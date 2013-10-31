@@ -28,10 +28,8 @@ GEM
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    actionpack-action_caching (1.0.0)
-      actionpack (>= 4.0.0.beta, < 5.0)
-    actionpack-page_caching (1.0.0)
-      actionpack (>= 4.0.0.beta, < 5.0)
+    actionpack-page_caching (1.0.1)
+      actionpack (>= 4.0.0, < 5)
     active_admin_editor (1.1.0)
       activeadmin (>= 0.4.0)
       ejs
@@ -53,16 +51,16 @@ GEM
       tzinfo (~> 0.3.37)
     arbre (1.0.1)
       activesupport (>= 3.0.0)
-    arel (4.0.0)
+    arel (4.0.1)
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
     bourbon (3.1.8)
       sass (>= 3.2.0)
       thor
     builder (3.1.4)
-    coffee-rails (4.0.0)
+    coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0.beta, < 5.0)
+      railties (>= 4.0.0, < 5.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -86,7 +84,7 @@ GEM
     inherited_resources (1.4.1)
       has_scope (~> 0.6.0.rc)
       responders (~> 1.0.0.rc)
-    jbuilder (1.5.1)
+    jbuilder (1.5.2)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
     jquery-rails (3.0.4)
@@ -94,21 +92,16 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (4.1.0)
       railties (>= 3.1.0)
-    json (1.8.0)
+    json (1.8.1)
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    meta_search (0.5.4)
-      actionpack (>= 3.0.0.beta4)
-      activerecord (>= 3.0.0.beta4)
-      activesupport (>= 3.0.0.beta4)
-      arel (>= 0.4.0)
     mime-types (1.25)
     minitest (4.7.5)
-    multi_json (1.8.0)
+    multi_json (1.8.2)
     orm_adapter (0.4.0)
     pg (0.17.0)
     polyamorous (0.6.4)
@@ -133,7 +126,7 @@ GEM
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.1)
-    rails_stdout_logging (0.0.1)
+    rails_stdout_logging (0.0.3)
     railties (4.0.0)
       actionpack (= 4.0.0)
       activesupport (= 4.0.0)
@@ -148,9 +141,9 @@ GEM
       json (~> 1.4)
     responders (1.0.0)
       railties (>= 3.2, < 5)
-    sass (3.2.11)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
+    sass (3.2.12)
+    sass-rails (4.0.1)
+      railties (>= 4.0.0, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
     sdoc (0.3.20)
@@ -161,7 +154,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.0.0)
+    sprockets-rails (2.0.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
@@ -174,10 +167,10 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (1.3.0)
       coffee-rails
-    tzinfo (0.3.37)
-    uglifier (2.2.1)
+    tzinfo (0.3.38)
+    uglifier (2.3.0)
       execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+      json (>= 1.8.0)
     warden (1.2.3)
       rack (>= 1.0)
 
@@ -185,14 +178,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionpack-action_caching
   actionpack-page_caching
   active_admin_editor
   activeadmin!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
-  meta_search
   pg
   protected_attributes
   rails (= 4.0.0)
