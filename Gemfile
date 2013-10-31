@@ -11,6 +11,7 @@ gem 'pg'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'meta_search'
+gem 'active_admin_editor'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
