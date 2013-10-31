@@ -9,6 +9,9 @@ gem 'rails_12factor', group: :production
 
 gem 'pg'
 
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'meta_search'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
