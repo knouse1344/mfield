@@ -10,7 +10,6 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'meta_search'
 gem 'active_admin_editor'
 
 # Use SCSS for stylesheets
