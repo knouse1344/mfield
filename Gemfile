@@ -9,9 +9,6 @@ gem 'rails_12factor', group: :production
 
 gem 'pg'
 
-gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'active_admin_editor'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -29,6 +26,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'protected_attributes'
 gem 'rails-observers'
 gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
